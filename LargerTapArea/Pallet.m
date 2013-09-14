@@ -44,6 +44,10 @@
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
+    if (self.button.isHidden || self.button.userInteractionEnabled == NO || self.button.alpha < 0.01) {
+        return [super hitTest:point withEvent:event];
+    }
+    
     // button のあたり判定 rect を作成
     CGRect rect = CGRectInset(self.button.frame, -20, -10);
     // あたり判定 rect 内であれば、button を返し、button にイベントを受けられるようにする
