@@ -44,6 +44,7 @@
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
+    // "hidden", "userInteractionEnabled", "alpha" の値を考慮する
     if (self.button.isHidden || self.button.userInteractionEnabled == NO || self.button.alpha < 0.01) {
         return [super hitTest:point withEvent:event];
     }
