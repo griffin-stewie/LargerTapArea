@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3AE1E2F17E3EC8000260872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AE1E2E17E3EC8000260872 /* UIKit.framework */; };
+		E3AE1E3117E3EC8000260872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AE1E3017E3EC8000260872 /* Foundation.framework */; };
+		E3AE1E3317E3EC8000260872 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AE1E3217E3EC8000260872 /* CoreGraphics.framework */; };
+		E3AE1E3917E3EC8000260872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3AE1E3717E3EC8000260872 /* InfoPlist.strings */; };
+		E3AE1E3B17E3EC8000260872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AE1E3A17E3EC8000260872 /* main.m */; };
+		E3AE1E3F17E3EC8000260872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AE1E3E17E3EC8000260872 /* AppDelegate.m */; };
+		E3AE1E4117E3EC8000260872 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AE1E4017E3EC8000260872 /* Default.png */; };
+		E3AE1E4317E3EC8000260872 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AE1E4217E3EC8000260872 /* Default@2x.png */; };
+		E3AE1E4517E3EC8000260872 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AE1E4417E3EC8000260872 /* Default-568h@2x.png */; };
+		E3AE1E4817E3EC8000260872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AE1E4717E3EC8000260872 /* ViewController.m */; };
+		E3AE1E4B17E3EC8000260872 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3AE1E4917E3EC8000260872 /* ViewController.xib */; };
+		E3AE1E5317E3EC8000260872 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AE1E5217E3EC8000260872 /* SenTestingKit.framework */; };
+		E3AE1E5417E3EC8000260872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AE1E2E17E3EC8000260872 /* UIKit.framework */; };
+		E3AE1E5517E3EC8000260872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AE1E3017E3EC8000260872 /* Foundation.framework */; };
+		E3AE1E5D17E3EC8000260872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3AE1E5B17E3EC8000260872 /* InfoPlist.strings */; };
+		E3AE1E6017E3EC8000260872 /* LargerTapAreaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AE1E5F17E3EC8000260872 /* LargerTapAreaTests.m */; };
+		E3CC958717E4173700A25C2A /* iconmonstr-info.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CC958517E4173700A25C2A /* iconmonstr-info.png */; };
+		E3CC958817E4173700A25C2A /* iconmonstr-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CC958617E4173700A25C2A /* iconmonstr-info@2x.png */; };
+		E3CC958B17E4175900A25C2A /* CSFlexibleTapAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC958A17E4175900A25C2A /* CSFlexibleTapAreaButton.m */; };
+		E3CC958E17E45B7D00A25C2A /* Pallet.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CC958D17E45B7D00A25C2A /* Pallet.m */; };
+		EF3D191098624679ACE70273 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD4E81DC219409BB204C482 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3AE1E5617E3EC8000260872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3AE1E2317E3EC8000260872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3AE1E2A17E3EC8000260872;
+			remoteInfo = LargerTapArea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD4E81DC219409BB204C482 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CA310644774C26B0D8F4E1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E3AE1E2B17E3EC8000260872 /* LargerTapArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargerTapArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AE1E2E17E3EC8000260872 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3AE1E3017E3EC8000260872 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3AE1E3217E3EC8000260872 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3AE1E3617E3EC8000260872 /* LargerTapArea-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LargerTapArea-Info.plist"; sourceTree = "<group>"; };
+		E3AE1E3817E3EC8000260872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3AE1E3A17E3EC8000260872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3AE1E3C17E3EC8000260872 /* LargerTapArea-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LargerTapArea-Prefix.pch"; sourceTree = "<group>"; };
+		E3AE1E3D17E3EC8000260872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3AE1E3E17E3EC8000260872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3AE1E4017E3EC8000260872 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E3AE1E4217E3EC8000260872 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E3AE1E4417E3EC8000260872 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E3AE1E4617E3EC8000260872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E3AE1E4717E3EC8000260872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3AE1E4A17E3EC8000260872 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E3AE1E5117E3EC8000260872 /* LargerTapAreaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LargerTapAreaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AE1E5217E3EC8000260872 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E3AE1E5A17E3EC8000260872 /* LargerTapAreaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LargerTapAreaTests-Info.plist"; sourceTree = "<group>"; };
+		E3AE1E5C17E3EC8000260872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3AE1E5E17E3EC8000260872 /* LargerTapAreaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LargerTapAreaTests.h; sourceTree = "<group>"; };
+		E3AE1E5F17E3EC8000260872 /* LargerTapAreaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LargerTapAreaTests.m; sourceTree = "<group>"; };
+		E3CC958517E4173700A25C2A /* iconmonstr-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-info.png"; sourceTree = "<group>"; };
+		E3CC958617E4173700A25C2A /* iconmonstr-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-info@2x.png"; sourceTree = "<group>"; };
+		E3CC958917E4175900A25C2A /* CSFlexibleTapAreaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSFlexibleTapAreaButton.h; sourceTree = "<group>"; };
+		E3CC958A17E4175900A25C2A /* CSFlexibleTapAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFlexibleTapAreaButton.m; sourceTree = "<group>"; };
+		E3CC958C17E45B7D00A25C2A /* Pallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pallet.h; sourceTree = "<group>"; };
+		E3CC958D17E45B7D00A25C2A /* Pallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pallet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3AE1E2817E3EC8000260872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AE1E2F17E3EC8000260872 /* UIKit.framework in Frameworks */,
+				E3AE1E3117E3EC8000260872 /* Foundation.framework in Frameworks */,
+				E3AE1E3317E3EC8000260872 /* CoreGraphics.framework in Frameworks */,
+				EF3D191098624679ACE70273 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AE1E4D17E3EC8000260872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AE1E5317E3EC8000260872 /* SenTestingKit.framework in Frameworks */,
+				E3AE1E5417E3EC8000260872 /* UIKit.framework in Frameworks */,
+				E3AE1E5517E3EC8000260872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3AE1E2217E3EC8000260872 = {
+			isa = PBXGroup;
+			children = (
+				E3AE1E3417E3EC8000260872 /* LargerTapArea */,
+				E3AE1E5817E3EC8000260872 /* LargerTapAreaTests */,
+				E3AE1E2D17E3EC8000260872 /* Frameworks */,
+				E3AE1E2C17E3EC8000260872 /* Products */,
+				31CA310644774C26B0D8F4E1 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		E3AE1E2C17E3EC8000260872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3AE1E2B17E3EC8000260872 /* LargerTapArea.app */,
+				E3AE1E5117E3EC8000260872 /* LargerTapAreaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3AE1E2D17E3EC8000260872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3AE1E2E17E3EC8000260872 /* UIKit.framework */,
+				E3AE1E3017E3EC8000260872 /* Foundation.framework */,
+				E3AE1E3217E3EC8000260872 /* CoreGraphics.framework */,
+				E3AE1E5217E3EC8000260872 /* SenTestingKit.framework */,
+				0AD4E81DC219409BB204C482 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3AE1E3417E3EC8000260872 /* LargerTapArea */ = {
+			isa = PBXGroup;
+			children = (
+				E3AE1E3D17E3EC8000260872 /* AppDelegate.h */,
+				E3AE1E3E17E3EC8000260872 /* AppDelegate.m */,
+				E3AE1E4617E3EC8000260872 /* ViewController.h */,
+				E3AE1E4717E3EC8000260872 /* ViewController.m */,
+				E3AE1E4917E3EC8000260872 /* ViewController.xib */,
+				E3AE1E3517E3EC8000260872 /* Supporting Files */,
+				E3CC958917E4175900A25C2A /* CSFlexibleTapAreaButton.h */,
+				E3CC958A17E4175900A25C2A /* CSFlexibleTapAreaButton.m */,
+				E3CC958C17E45B7D00A25C2A /* Pallet.h */,
+				E3CC958D17E45B7D00A25C2A /* Pallet.m */,
+			);
+			path = LargerTapArea;
+			sourceTree = "<group>";
+		};
+		E3AE1E3517E3EC8000260872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3AE1E3617E3EC8000260872 /* LargerTapArea-Info.plist */,
+				E3AE1E3717E3EC8000260872 /* InfoPlist.strings */,
+				E3AE1E3A17E3EC8000260872 /* main.m */,
+				E3AE1E3C17E3EC8000260872 /* LargerTapArea-Prefix.pch */,
+				E3CC958517E4173700A25C2A /* iconmonstr-info.png */,
+				E3CC958617E4173700A25C2A /* iconmonstr-info@2x.png */,
+				E3AE1E4017E3EC8000260872 /* Default.png */,
+				E3AE1E4217E3EC8000260872 /* Default@2x.png */,
+				E3AE1E4417E3EC8000260872 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3AE1E5817E3EC8000260872 /* LargerTapAreaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3AE1E5E17E3EC8000260872 /* LargerTapAreaTests.h */,
+				E3AE1E5F17E3EC8000260872 /* LargerTapAreaTests.m */,
+				E3AE1E5917E3EC8000260872 /* Supporting Files */,
+			);
+			path = LargerTapAreaTests;
+			sourceTree = "<group>";
+		};
+		E3AE1E5917E3EC8000260872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3AE1E5A17E3EC8000260872 /* LargerTapAreaTests-Info.plist */,
+				E3AE1E5B17E3EC8000260872 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3AE1E2A17E3EC8000260872 /* LargerTapArea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3AE1E6317E3EC8000260872 /* Build configuration list for PBXNativeTarget "LargerTapArea" */;
+			buildPhases = (
+				40CB158F9FB84240AFFC5387 /* Check Pods Manifest.lock */,
+				E3AE1E2717E3EC8000260872 /* Sources */,
+				E3AE1E2817E3EC8000260872 /* Frameworks */,
+				E3AE1E2917E3EC8000260872 /* Resources */,
+				11FDA2E34E3A430F871ED5F1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LargerTapArea;
+			productName = LargerTapArea;
+			productReference = E3AE1E2B17E3EC8000260872 /* LargerTapArea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3AE1E5017E3EC8000260872 /* LargerTapAreaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3AE1E6617E3EC8000260872 /* Build configuration list for PBXNativeTarget "LargerTapAreaTests" */;
+			buildPhases = (
+				E3AE1E4C17E3EC8000260872 /* Sources */,
+				E3AE1E4D17E3EC8000260872 /* Frameworks */,
+				E3AE1E4E17E3EC8000260872 /* Resources */,
+				E3AE1E4F17E3EC8000260872 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3AE1E5717E3EC8000260872 /* PBXTargetDependency */,
+			);
+			name = LargerTapAreaTests;
+			productName = LargerTapAreaTests;
+			productReference = E3AE1E5117E3EC8000260872 /* LargerTapAreaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3AE1E2317E3EC8000260872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "cyan-stivy.net";
+			};
+			buildConfigurationList = E3AE1E2617E3EC8000260872 /* Build configuration list for PBXProject "LargerTapArea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3AE1E2217E3EC8000260872;
+			productRefGroup = E3AE1E2C17E3EC8000260872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3AE1E2A17E3EC8000260872 /* LargerTapArea */,
+				E3AE1E5017E3EC8000260872 /* LargerTapAreaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3AE1E2917E3EC8000260872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AE1E3917E3EC8000260872 /* InfoPlist.strings in Resources */,
+				E3AE1E4117E3EC8000260872 /* Default.png in Resources */,
+				E3AE1E4317E3EC8000260872 /* Default@2x.png in Resources */,
+				E3AE1E4517E3EC8000260872 /* Default-568h@2x.png in Resources */,
+				E3AE1E4B17E3EC8000260872 /* ViewController.xib in Resources */,
+				E3CC958717E4173700A25C2A /* iconmonstr-info.png in Resources */,
+				E3CC958817E4173700A25C2A /* iconmonstr-info@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AE1E4E17E3EC8000260872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AE1E5D17E3EC8000260872 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FDA2E34E3A430F871ED5F1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40CB158F9FB84240AFFC5387 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3AE1E4F17E3EC8000260872 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3AE1E2717E3EC8000260872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AE1E3B17E3EC8000260872 /* main.m in Sources */,
+				E3AE1E3F17E3EC8000260872 /* AppDelegate.m in Sources */,
+				E3AE1E4817E3EC8000260872 /* ViewController.m in Sources */,
+				E3CC958B17E4175900A25C2A /* CSFlexibleTapAreaButton.m in Sources */,
+				E3CC958E17E45B7D00A25C2A /* Pallet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AE1E4C17E3EC8000260872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AE1E6017E3EC8000260872 /* LargerTapAreaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3AE1E5717E3EC8000260872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3AE1E2A17E3EC8000260872 /* LargerTapArea */;
+			targetProxy = E3AE1E5617E3EC8000260872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3AE1E3717E3EC8000260872 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3AE1E3817E3EC8000260872 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3AE1E4917E3EC8000260872 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3AE1E4A17E3EC8000260872 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		E3AE1E5B17E3EC8000260872 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3AE1E5C17E3EC8000260872 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3AE1E6117E3EC8000260872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E3AE1E6217E3EC8000260872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3AE1E6417E3EC8000260872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CA310644774C26B0D8F4E1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LargerTapArea/LargerTapArea-Prefix.pch";
+				INFOPLIST_FILE = "LargerTapArea/LargerTapArea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3AE1E6517E3EC8000260872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CA310644774C26B0D8F4E1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LargerTapArea/LargerTapArea-Prefix.pch";
+				INFOPLIST_FILE = "LargerTapArea/LargerTapArea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E3AE1E6717E3EC8000260872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LargerTapArea.app/LargerTapArea";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LargerTapArea/LargerTapArea-Prefix.pch";
+				INFOPLIST_FILE = "LargerTapAreaTests/LargerTapAreaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E3AE1E6817E3EC8000260872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LargerTapArea.app/LargerTapArea";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LargerTapArea/LargerTapArea-Prefix.pch";
+				INFOPLIST_FILE = "LargerTapAreaTests/LargerTapAreaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3AE1E2617E3EC8000260872 /* Build configuration list for PBXProject "LargerTapArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AE1E6117E3EC8000260872 /* Debug */,
+				E3AE1E6217E3EC8000260872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3AE1E6317E3EC8000260872 /* Build configuration list for PBXNativeTarget "LargerTapArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AE1E6417E3EC8000260872 /* Debug */,
+				E3AE1E6517E3EC8000260872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3AE1E6617E3EC8000260872 /* Build configuration list for PBXNativeTarget "LargerTapAreaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AE1E6717E3EC8000260872 /* Debug */,
+				E3AE1E6817E3EC8000260872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3AE1E2317E3EC8000260872 /* Project object */;
+}
